@@ -1,0 +1,508 @@
+.container {
+	width: 100%;
+}
+
+.container .logo {
+	width: 1200px;
+	height: 108px;
+	position: relative;
+	margin: 0 auto;
+}
+
+.container .logo img {
+	display: inline-block;
+	width: 200px;
+}
+
+.container .logo h1 {
+	position: absolute;
+	top: 52px;
+	left: 200px;
+	font-size: 30px;
+}
+
+.container .header {
+	width: 100%;
+	height: 40px;
+	background-color: #2e82ff;
+}
+
+.container .header .header-inner {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.container .header .header-inner .nav {
+	width: 100%;
+	height: 40px;
+}
+
+.container .header .header-inner .nav .bg {
+	width: 248px;
+	height: 40px;
+	background: blue;
+	padding: 0;
+}
+
+.container .header .header-inner .nav .bg:hover {
+	background: blue;
+}
+
+.container .header .header-inner .nav li {
+	height: 100%;
+	padding: 0 20px;
+	margin-right: 5px;
+	float: left;
+}
+
+.container .header .header-inner .nav li:hover {
+	background: blue;
+}
+
+.container .header .header-inner .nav a {
+	height: 100%;
+	line-height: 40px;
+	font-size: 18px;
+	color: #F2F2F2;
+}
+
+.container .header .header-inner .sesstion {
+	width: 100%;
+	position: relative;
+}
+
+.sesstion-left {
+	width: 248px;
+	min-height: 300px;
+	background: #fbfbfb;
+	border-left: 1px solid #e6e6e6;
+	border-right: 1px solid #e6e6e6;
+	float: left;
+}
+
+.sesstion-left li {
+	padding: 20px 10px;
+	box-sizing: border-box;
+}
+
+.sesstion-left .change-img {
+	width: 100%;
+	height: 150px;
+}
+
+.sesstion-left .change-img p {
+	width: 80px;
+	height: 80px;
+	float: left;
+	margin-right: 15px;
+}
+
+.sesstion-left .change-img .change {
+	width: 130px;
+	margin: 0;
+}
+
+.sesstion-left .change-img .change .username {
+	line-height: 22px;
+}
+
+.sesstion-left .change-img .type {
+	height: 40px;
+	width: 100%;
+	line-height: 40px;
+}
+
+.sesstion-left .change-img .type em,
+.sesstion-left .change-img .change .username em {
+	font-style: normal;
+	font-weight: bold;
+}
+
+.sesstion-left .change-img .change .pass {
+	display: inline-block;
+	height: 20px;
+	position: relative;
+}
+
+.sesstion-left .change-img .change .pass i.iconfont {
+	font-style: normal;
+	position: absolute;
+	top: 9px;
+}
+
+.sesstion-left .change-img .change .pass i.iconfont.yes {
+	color: #1cdc1c;
+}
+
+.sesstion-left .change-img .change .pass i.iconfont.yes,
+.sesstion-left .change-img .change .pass i.iconfont.no {
+	font-size: 30px;
+}
+
+.sesstion-left .change-img .change .pass i.iconfont.no {
+	color: red;
+}
+
+.sesstion-left .change-img .change .pass .pass-son {
+	display: inline-block;
+	width: 100%;
+	height: 50px;
+	padding-left: 20px;
+	text-align: center;
+	line-height: 50px;
+}
+
+.sesstion-left .change-img a img {
+	width: 100%;
+	height: 100%;
+}
+
+.sesstion-left .op {
+	padding: 0 20px;
+}
+
+.sesstion-left .op h4 {
+	line-height: 3;
+}
+
+.sesstion-left .op p {
+	line-height: 2;
+}
+
+.sesstion-left .op p a {
+	line-height: 2;
+	color: #2e82ff;
+}
+
+.sesstion-left .road {
+	border-bottom: 1px solid #e6e6e6;
+	border-top: 1px solid #e6e6e6;
+	font-size: 16px;
+	color: #000;
+	height: 40px;
+	line-height: 40px;
+	background: #f3f3f3;
+	padding: 0;
+	padding-left: 20px;
+	font-weight: bold;
+}
+
+.sesstion-left .op-item {
+	height: 50px;
+	border-bottom: 1px dotted #E6E6E6;
+	padding: 0;
+	box-sizing: border-box;
+	padding-left: 20px;
+	padding-right: 20px;
+	position: relative;
+}
+
+.sesstion-left .op-item i {
+	line-height: 50px;
+	font-size: 26px;
+	color: #2e82ff;
+}
+
+.sesstion-left .op-item.active .fanhui {
+	display: block;
+}
+
+.sesstion-left .op-item .fanhui {
+	display: none;
+	float: right;
+	transform: rotate(180deg);
+	font-size: 16px;
+	color: #666666;
+}
+
+.sesstion-left .op-item i.ziliao {
+	font-size: 22px;
+}
+
+.sesstion-left .op-item a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	line-height: 50px;
+	padding-left: 50px;
+	box-sizing: border-box;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.sesstion-left .op-item a span {
+	display: inline-block;
+	float: right;
+	padding-right: 5px;
+	color: #2e82ff;
+	box-sizing: border-box;
+}
+
+.sesstion-right {
+	float: left;
+	width: 950px;
+	/*min-height: 930px;*/
+	box-sizing: border-box;
+	position: relative;
+}
+
+.sesstion-right .sesstion-tab {
+	padding-left: 20px;
+	padding-right: 20px;
+	border-right: 1px solid #e6e6e6;
+	/*float: left;*/
+	width: 100%;
+	box-sizing: border-box;
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.sesstion-right .sesstion-tab.active {
+	display: block;
+}
+
+.sesstion-right .title {
+	font-size: 30px;
+	padding-top: 50px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #e6e6e6;
+}
+
+.sesstion-right .sesstion-main {
+	width: 100%;
+	padding-top: 40px;
+}
+
+.sesstion-right .sesstion-main .left {
+	width: 25%;
+	text-align: right;
+}
+
+.sesstion-right .sesstion-main .left,
+.sesstion-right .sesstion-main .right {
+	float: left;
+	height: 60px;
+	line-height: 60px;
+	font-size: 16px;
+}
+
+.sesstion-right .sesstion-main .right {
+	width: 75%;
+	position: relative;
+}
+
+.sesstion-right .sesstion-main .right input {
+	height: 30px;
+	width: 60%;
+	text-indent: 1em;
+	border: 1px solid #e6e6e6;
+	border-radius: 2px;
+}
+
+.sesstion-right .sesstion-main .right input:focus,
+.sesstion-right .sesstion-main .right select {
+	border: 1px solid #58b7ff;
+	transition: all .6s ease;
+}
+
+.sesstion-right .sesstion-main .right select {
+	height: 30px;
+	border: 1px solid #e6e6e6;
+	border-radius: 2px;
+	margin-right: 5px;
+}
+
+.sesstion-right .sesstion-main .right .address {
+	width: 50%;
+}
+
+
+/* 确认修改密码页面的友情提示开始 */
+
+.sesstion-right .sesstion-main .right .tips {
+	width: 180px;
+	/*height: 50px;*/
+	border: 1px solid #e6e6e6;
+	background-color: #F9F9F9;
+	position: absolute;
+	right: 70px;
+	top: 0;
+	box-sizing: border-box;
+	padding-left: 10px;
+}
+
+.sesstion-right .sesstion-main .right .tips p {
+	height: 30px;
+	line-height: 30px;
+}
+
+#triangle-left {
+	width: 10px;
+	height: 10px;
+	border-top: 1px solid #e6e6e6;
+	border-right: 1px solid #e6e6e6;
+	background-color: #f9f9f9;
+	position: absolute;
+	left: -6px;
+	top: 18px;
+	transform: rotate(-135deg);
+}
+
+
+/* 确认修改密码页面的友情提示结束 */
+
+.sesstion-right .sesstion-main li .btn {
+	padding: 10px 20px;
+	margin: 40px 150px;
+	color: #fff;
+	background-color: #58b7ff;
+	border-radius: 4px;
+	transition: all .6s ease;
+}
+
+.sesstion-right .sesstion-main li .btn:hover {
+	background-color: #39a7fb;
+}
+
+
+/* 确认修改密码时的弹框 */
+
+.mask {
+	position: absolute;
+	top: 0px;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 100;
+	left: 0px;
+}
+
+.sure {
+	width: 500px;
+	height: 300px;
+	background: #fff;
+	display: none;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	border-radius: 4px;
+	z-index: 1000;
+}
+
+.sure .title {
+	height: 50px;
+	width: 100%;
+	padding: 0 10px;
+	background-color: #f3f3f3;
+	border-bottom: 1px solid #e6e6e6;
+	box-sizing: border-box;
+	border-top-right-radius: 4px;
+	border-top-left-radius: 4px;
+}
+
+.sure .title h1 {
+	width: 400px;
+	line-height: 50px;
+	font-size: 20px;
+	float: left;
+	font-weight: 100;
+}
+
+.sure .title span {
+	width: 50px;
+	height: 50px;
+	float: right;
+	text-align: center;
+	line-height: 50px;
+	cursor: pointer;
+}
+
+.sure .title span i {
+	font-size: 20px;
+}
+
+.sure .msg {
+	width: 100%;
+	height: 250px;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.sure .msg h1 {
+	font-size: 16px;
+	line-height: 2;
+	font-weight: 100;
+}
+
+.sure .msg ul {
+	padding: 0px 10px;
+}
+
+.sure .msg ul li {
+	width: 100%;
+	height: 50px;
+	/*background: red;*/
+	margin: 15px 0;
+}
+
+.sure .msg ul li:last-child input {
+	color: #fff;
+	background-color: #58b7ff;
+	transition: all .6s ease;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.sure .msg ul li input {
+	width: 100%;
+	height: 100%;
+	font-size: 14px;
+	border-radius: 2px;
+	border: 1px solid #e6e6e6;
+	box-sizing: border-box;
+	text-indent: 1em;
+}
+
+.sure .msg ul li.op input:first-child {
+	height: 100%;
+	width: 60%;
+	float: left;
+}
+
+.sure .msg ul li.op input:last-child {
+	height: 100%;
+	width: 30%;
+	float: right;
+	color: #fff;
+	background-color: #58b7ff;
+	transition: all .6s ease;
+	cursor: pointer;
+}
+
+
+/*修改密码页面的提示*/
+
+.sure.sure-newpwd {
+	height: 200px;
+	width: 460px;
+}
+
+.sure.sure-newpwd button {
+	width: 100px;
+	height: 40px;
+	color: #fff;
+	background-color: #58b7ff;
+	border-radius: 4px;
+	font-size: 16px;
+	transition: all .6s ease;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 20px;
+	margin: auto;
+	/*overflow: hidden;*/
+}

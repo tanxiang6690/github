@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>账号管理</title>
+		<link rel="stylesheet" href="lib/font/iconfont.css" />
+		<link rel="stylesheet" type="text/css" href="css/public.css" />
+		<link rel="stylesheet" type="text/css" href="css/account.css" />
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="logo">
+				<img src="img/logo.jpg" align="bottom" />
+				<h1>账号管理</h1>
+			</div>
+			<div class="header">
+				<div class="header-inner">
+					<ul class="nav">
+						<li class="bg"></li>
+						<li class="transition3s">
+							<a href="#">首页</a>
+						</li>
+						<li class="transition3s">
+							<a href="order.html">我的订单</a>
+						</li>
+					</ul>
+
+					<div class="sesstion clearfix">
+						<div class="sesstion-left">
+							<ul class="clearfix">
+								<li class="change-img">
+									<p>
+										<a href="javascript:;">
+											<img src="img/touxiang.jpg" />
+										</a>
+									</p>
+									<p class="change">
+										<!-- 用户名最多9个汉字 -->
+										<span class="username"><em>用户名：</em><br />对对对东啊省地伸缩</span>
+										<span class="pass">
+											<i class="iconfont icon-businesscard yes"></i>
+											<i class="pass-son">已认证</i>
+										</span>
+										<!--  谨慎删除此处 -->
+										<!--<span class="pass">
+											<i class="iconfont icon-businesscard no"></i>
+											<i class="pass-son">已认证</i>
+										</span>-->
+									</p>
+									<p class="type">
+										<span><em>类型：</em>加快了就快了看</span>
+									</p>
+								</li>
+								<li class="road">账号信息</li>
+								<li class="op-item active">
+									<i class="iconfont icon-ziliao ziliao"></i>
+									<a href="javascript:;">基本资料</a>
+									<i class="iconfont icon-fanhui fanhui"></i>
+								</li>
+								<li class="op-item change-pw">
+									<i class="iconfont icon-suo"></i>
+									<a href="javascript:;">修改密码</a>
+									<i class="iconfont icon-fanhui fanhui"></i>
+								</li>
+							</ul>
+						</div>
+						<div class="sesstion-right">
+							<div class="sesstion-tab active">
+								<h1 class="title">基本资料</h1>
+								<div class="sesstion-main">
+									<ul>
+										<li>
+											<div class="left">单位名称：</div>
+											<div class="right"><input type="text" placeholder="单位名称" /></div>
+										</li>
+										<li>
+											<div class="left">单位地址：</div>
+											<div class="right">
+												<select name="">
+													<option value="">单位第一</option>
+													<option value="">单位第二</option>
+													<option value="">单位第三</option>
+													<option value="">单位第四</option>
+													<option value="">单位第五</option>
+													<option value="">单位第刘</option>
+												</select>
+												<select name="">
+													<option value="">单位第一</option>
+													<option value="">单位第二</option>
+													<option value="">单位第三</option>
+													<option value="">单位第四</option>
+													<option value="">单位第五</option>
+													<option value="">单位第刘</option>
+												</select>
+												<input type="text" class="address" placeholder="单位地址" />
+											</div>
+										</li>
+										<li>
+											<div class="left">企业负责人：</div>
+											<div class="right"><input type="text" placeholder="单位名称" /></div>
+										</li>
+										<li>
+											<div class="left">负责人电话：</div>
+											<div class="right"><input type="text" placeholder="单位名称" /></div>
+										</li>
+										<li>
+											<div class="left">联络人：</div>
+											<div class="right"><input type="text" placeholder="单位名称" /></div>
+										</li>
+										<li>
+											<div class="left">联络人电话：</div>
+											<div class="right"><input type="text" placeholder="单位名称" /></div>
+										</li>
+										<li>
+											<div class="left">联络邮箱：</div>
+											<div class="right"><input type="email" placeholder="单位名称" /></div>
+										</li>
+										<li>
+											<input type="button" class="btn" value="确认提交" />
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="sesstion-tab">
+								<h1 class="title">修改密码</h1>
+								<div class="sesstion-main">
+									<form action="#" method="get">
+										<ul>
+											<li>
+												<div class="left">新密码：</div>
+												<div class="right">
+													<input type="text" placeholder="新密码" id="new-psd" name="new-psd" class="new-pwd" autofocus/>
+													<div class="tips">
+														<div id="triangle-left"></div>
+														<p>长度为6-14个字符</p>
+														<p>支持数字、大小写和标点符号</p>
+														<p>不容许有空格</p>
+													</div>
+												</div>
+											</li>
+											<li>
+												<div class="left">确认新密码：</div>
+												<div class="right">
+													<input type="text" id="sure-newpwd" name="sure-newpwd" placeholder="确认新密码" />
+												</div>
+											</li>
+											<li>
+												<input type="button" class="btn sub-sure" value="确认修改" />
+											</li>
+										</ul>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer">&copy;版权所有</div>
+			</div>
+		</div>
+		<!-- 遮罩层 -->
+		<div class="mask safe">
+			<div class="sure safe">
+				<div class="title">
+					<h1>手机验证</h1>
+					<span class="close"><i class="iconfont icon-close"></i></span>
+				</div>
+				<div class="msg">
+					<!--<h1>为了您的账号安全，修改密码前请先确认账号安全</h1>
+					<h1>验证方式</h1>-->
+					<!--<form action="#" method="get">-->
+					<ul>
+						<li>
+							<input type="text" name="number" id="number" value="" placeholder="手机号码" />
+						</li>
+						<li class="op">
+							<input type="text" name="msg" id="msg" value="" placeholder="短信验证码" />
+							<input type="button" value="发送验证码" />
+						</li>
+						<li>
+							<input type="button" class="msg-button" value="确&ensp;定" />
+						</li>
+					</ul>
+					<!--</form>-->
+				</div>
+			</div>
+		</div>
+		<!-- 遮罩层 ****确认输入的新密码是否一致-->
+		<div class="mask sure-newpwd">
+			<div class="sure sure-newpwd">
+				<div class="title">
+					<span class="close"><i class="iconfont icon-close"></i></span>
+				</div>
+				<div class="msg">
+					<h1>为了您的账号安全，修改密码前请先确认账号安全</h1>
+					<button type="button">确&ensp;认</button>
+				</div>
+			</div>
+		</div>
+		<script src="lib/assets/js/jquery1.12.3.js" type="text/javascript" charset="utf-8"></script>
+		<script src="lib/assets/js/jquery.pagination.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/account.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+
+</html>

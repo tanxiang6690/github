@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>我的订单</title>
+		<link rel="stylesheet" href="lib/font/iconfont.css" />
+		<link rel="stylesheet" type="text/css" href="lib/assets/css/pagination.css"/>
+		<link rel="stylesheet" type="text/css" href="css/public.css" />
+		<link rel="stylesheet" type="text/css" href="css/account.css" />
+		<link rel="stylesheet" href="css/order.css" />
+	</head>
+
+	<body>
+		<div class="container order">
+			<div class="logo">
+				<img src="img/logo.jpg" align="bottom" />
+				<h1>我的订单</h1>
+			</div>
+			<div class="header">
+				<div class="header-inner">
+					<ul class="nav">
+						<li class="bg"></li>
+						<li class="transition3s">
+							<a href="#">首页</a>
+						</li>
+						<li class="transition3s">
+							<a href="accout.html">账号管理</a>
+						</li>
+					</ul>
+
+					<div class="sesstion clearfix">
+						<div class="sesstion-left">
+							<ul>
+								<li class="op-item active">
+									<i class="iconfont icon-suoyoudingdan ziliao"></i>
+									<a href="javascript:;">所有订单</a>
+									<i class="iconfont icon-fanhui fanhui"></i>
+								</li>
+								<li class="op-item">
+									<i class="iconfont icon-daifukuan"></i>
+									<a href="javascript:;">待付款</a>
+									<i class="iconfont icon-fanhui fanhui"></i>
+								</li>
+								<li class="op-item">
+									<i class="iconfont icon-cloud-test ziliao"></i>
+									<a href="javascript:;">待检测</a>
+									<i class="iconfont icon-fanhui fanhui"></i>
+								</li>
+								<li class="op-item">
+									<i class="iconfont icon-daishouhuo ziliao"></i>
+									<a href="javascript:;">待收货</a>
+									<i class="iconfont icon-fanhui fanhui"></i>
+								</li>
+								<li class="op-item">
+									<i class="iconfont icon-jiedanbaozhengjin ziliao"></i>
+									<a href="javascript:;">待接单</a>
+									<i class="iconfont icon-fanhui fanhui"></i>
+								</li>
+								<li class="op-item">
+									<i class="iconfont icon-daipingjia1 ziliao"></i>
+									<a href="javascript:;">待评价</a>
+									<i class="iconfont icon-fanhui fanhui"></i>
+								</li>
+							</ul>
+						</div>
+						<div class="sesstion-right">
+							<div class="sesstion-tab active">
+								<div class="sesstion-main">
+									<div class="search clearfix">
+										<div class="search-item">
+											<p>订单类型：</p>
+											<div class="search-text">
+												<select name="">
+													<option value="">订单类型一</option>
+													<option value="">订单类型二</option>
+													<option value="">订单类型三</option>
+													<option value="">订单类型四</option>
+													<option value="">订单类型五</option>
+													<option value="">订单类型六</option>
+												</select>
+											</div>
+										</div>
+										<div class="search-item">
+											<p>订单编号：</p>
+											<div class="search-text">
+												<input type="" name="" id="" value="" />
+											</div>
+										</div>
+										<div class="search-item">
+											<p>交易状态：</p>
+											<div class="search-text">
+												<select name="">
+													<option value="">交易状态一</option>
+													<option value="">交易状态二</option>
+													<option value="">交易状态三</option>
+													<option value="">交易状态四</option>
+													<option value="">交易状态五</option>
+													<option value="">交易状态六</option>
+												</select>
+											</div>
+										</div>
+										<div class="search-item">
+											<p>评价状态：</p>
+											<div class="search-text">
+												<input type="" name="" id="" value="" />
+											</div>
+										</div>
+										<div class="search-item">
+											<p>售后服务：</p>
+											<div class="search-text">
+												<select name="">
+													<option value="">售后服务一</option>
+													<option value="">售后服务二</option>
+													<option value="">售后服务三</option>
+													<option value="">售后服务四</option>
+													<option value="">售后服务五</option>
+													<option value="">售后服务六</option>
+												</select>
+											</div>
+										</div>
+										<div class="search-item">
+											<p>检测机构：</p>
+											<div class="search-text">
+												<input type="text" />
+											</div>
+										</div>
+										<div class="search-item">
+											<p>下单时间：</p>
+											<div class="search-text">
+												<input type="" name="" id="" value="" />
+											</div>
+										</div>
+										<div class="search-item">
+											<div class="search-text">
+												<button type="button" class="my_btn">搜&ensp;索</button>
+											</div>
+										</div>
+									</div>
+									<div class="order-list">
+										<ul class="order-title">
+											<li class="wtdw">委托单位</li>
+											<li>付款</li>
+											<li>是否加急</li>
+											<li>订单状态</li>
+											<li>纸质报告</li>
+											<li>检测结果</li>
+											<li>检测报告</li>
+											<li>交易操作</li>
+										</ul>
+										<ul class="order-item clearfix">
+											<li class="clearfix">
+												<div class="order-item-title">
+													<ul class="clearfix">
+														<li>下单时间：</li>
+														<li>订单编号：</li>
+														<li>承建单位：</li>
+														<li>联系方式：</li>
+													</ul>
+												</div>
+												<div class="order-item-list clearfix">
+													<div class="wtdw">算快乐的减肥了上课的减肥快乐束带结发了速度快解放了深刻接待费了上课的减肥</div>
+													<div class="money">总额：¥888 <br />应付应付：¥8888.88</div>
+													<div class="is-urgent">是/否</div>
+													<div class="order-status">待收货</div>
+													<div class="order-paper">123</div>
+													<div class="check-result">未通过</div>
+													<div class="check-report"><a href="#####1">下载</a><br /><a href="######2">查看</a></div>
+													<div class="op">
+														<button class="my_btn">确认收货</button><br />
+														<button class="my_btn">评价</button><br />
+														<button class="my_btn">查看</button><br />
+														<button class="my_btn">删除</button>
+													</div>
+												</div>
+											</li>
+											<li class="clearfix">
+												<div class="order-item-title">
+													<ul class="clearfix">
+														<li>下单时间：</li>
+														<li>订单编号：</li>
+														<li>承建单位：</li>
+														<li>联系方式：</li>
+													</ul>
+												</div>
+												<div class="order-item-list clearfix">
+													<div class="wtdw">算快乐的减肥了上课的减肥快乐束带结发了速度快解放了深刻接待费了上课的减肥</div>
+													<div class="money">总额：¥888 <br />应付应付：¥8888.88</div>
+													<div class="is-urgent">是/否</div>
+													<div class="order-status">待评价</div>
+													<div class="order-paper">123</div>
+													<div class="check-result">未通过</div>
+													<div class="check-report"><a href="#####1">下载</a><br /><a href="######2">查看</a></div>
+													<div class="op">
+														<button class="my_btn">确认收货</button><br />
+														<button class="my_btn">评价</button><br />
+														<button class="my_btn">查看</button><br />
+														<button class="my_btn">删除</button>
+													</div>
+												</div>
+											</li>
+											<li class="clearfix">
+												<div class="order-item-title">
+													<ul class="clearfix">
+														<li>下单时间：</li>
+														<li>订单编号：</li>
+														<li>承建单位：</li>
+														<li>联系方式：</li>
+													</ul>
+												</div>
+												<div class="order-item-list clearfix">
+													<div class="wtdw">算快乐的减肥了上课的减肥快乐束带结发了速度快解放了深刻接待费了上课的减肥</div>
+													<div class="money">总额：¥888 <br />应付应付：¥8888.88</div>
+													<div class="is-urgent">是/否</div>
+													<div class="order-status">待尖刺</div>
+													<div class="order-paper">123</div>
+													<div class="check-result">未通过</div>
+													<div class="check-report"><a href="#####1">下载</a><br /><a href="######2">查看</a></div>
+													<div class="op">
+														<button class="my_btn">确认收货</button><br />
+														<button class="my_btn">评价</button><br />
+														<button class="my_btn">查看</button><br />
+														<button class="my_btn">删除</button>
+													</div>
+												</div>
+											</li>
+											<li class="clearfix">
+												<div class="order-item-title">
+													<ul class="clearfix">
+														<li>下单时间：</li>
+														<li>订单编号：</li>
+														<li>承建单位：</li>
+														<li>联系方式：</li>
+													</ul>
+												</div>
+												<div class="order-item-list clearfix">
+													<div class="wtdw">算快乐的减肥了上课的减肥快乐束带结发了速度快解放了深刻接待费了上课的减肥</div>
+													<div class="money">总额：¥888 <br />应付应付：¥8888.88</div>
+													<div class="is-urgent">是/否</div>
+													<div class="order-status">待付款</div>
+													<div class="order-paper">123</div>
+													<div class="check-result">未通过</div>
+													<div class="check-report"><a href="#####1">下载</a><br /><a href="######2">查看</a></div>
+													<div class="op">
+														<button class="my_btn">确认收货</button><br />
+														<button class="my_btn">评价</button><br />
+														<button class="my_btn">查看</button><br />
+														<button class="my_btn">删除</button>
+													</div>
+												</div>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<!-- 分页组件的使用 -->
+								<div class="M-box2"></div>
+							</div>
+							<div class="sesstion-tab">
+								<div class="sesstion-main">
+									<div class="search clearfix">
+										<div class="search-item">
+											<p>订单类型：</p>
+											<div class="search-text">
+												<select name="">
+													<option value="">订单类型一</option>
+													<option value="">订单类型二</option>
+													<option value="">订单类型三</option>
+													<option value="">订单类型四</option>
+													<option value="">订单类型五</option>
+													<option value="">订单类型六</option>
+												</select>
+											</div>
+										</div>
+										<div class="search-item">
+											<p>订单编号：</p>
+											<div class="search-text">
+												<input type="" name="" id="" value="" />
+											</div>
+										</div>
+										<div class="search-item">
+											<p>交易状态：</p>
+											<div class="search-text">
+												<select name="">
+													<option value="">交易状态一</option>
+													<option value="">交易状态二</option>
+													<option value="">交易状态三</option>
+													<option value="">交易状态四</option>
+													<option value="">交易状态五</option>
+													<option value="">交易状态六</option>
+												</select>
+											</div>
+										</div>
+										<div class="search-item">
+											<p>评价状态：</p>
+											<div class="search-text">
+												<input type="" name="" id="" value="" />
+											</div>
+										</div>
+										<div class="search-item">
+											<p>售后服务：</p>
+											<div class="search-text">
+												<select name="">
+													<option value="">售后服务一</option>
+													<option value="">售后服务二</option>
+													<option value="">售后服务三</option>
+													<option value="">售后服务四</option>
+													<option value="">售后服务五</option>
+													<option value="">售后服务六</option>
+												</select>
+											</div>
+										</div>
+										<div class="search-item">
+											<p>检测机构：</p>
+											<div class="search-text">
+												<input type="text" />
+											</div>
+										</div>
+										<div class="search-item">
+											<p>下单时间：</p>
+											<div class="search-text">
+												<input type="" name="" id="" value="" />
+											</div>
+										</div>
+										<div class="search-item">
+											<div class="search-text">
+												<button type="button" class="my_btn">搜&ensp;索</button>
+											</div>
+										</div>
+									</div>
+									<div class="order-list">
+										<ul class="order-title">
+											<li class="wtdw">委托单位</li>
+											<li>付款</li>
+											<li>是否加急</li>
+											<li>订单状态</li>
+											<li>纸质报告</li>
+											<li>检测结果</li>
+											<li>检测报告</li>
+											<li>交易操作</li>
+										</ul>
+										<ul class="order-item clearfix">
+											<li class="clearfix">
+												<div class="order-item-title">
+													<ul class="clearfix">
+														<li>下单时间：</li>
+														<li>订单编号：</li>
+														<li>承建单位：</li>
+														<li>联系方式：</li>
+													</ul>
+												</div>
+												<div class="order-item-list clearfix">
+													<div class="wtdw">算快乐的减肥了上课的减肥快乐束带结发了速度快解放了深刻接待费了上课的减肥</div>
+													<div class="money">总额：¥888 <br />应付应付：¥8888.88</div>
+													<div class="is-urgent">是/否</div>
+													<div class="order-status">待收货</div>
+													<div class="order-paper">123</div>
+													<div class="check-result">未通过</div>
+													<div class="check-report"><a href="#####1">下载</a><br /><a href="######2">查看</a></div>
+													<div class="op">
+														<button class="my_btn">确认收货</button><br />
+														<button class="my_btn">评价</button><br />
+														<button class="my_btn">查看</button><br />
+														<button class="my_btn">删除</button>
+													</div>
+												</div>
+											</li>
+											<li class="clearfix">
+												<div class="order-item-title">
+													<ul class="clearfix">
+														<li>下单时间：</li>
+														<li>订单编号：</li>
+														<li>承建单位：</li>
+														<li>联系方式：</li>
+													</ul>
+												</div>
+												<div class="order-item-list clearfix">
+													<div class="wtdw">算快乐的减肥了上课的减肥快乐束带结发了速度快解放了深刻接待费了上课的减肥</div>
+													<div class="money">总额：¥888 <br />应付应付：¥8888.88</div>
+													<div class="is-urgent">是/否</div>
+													<div class="order-status">待评价</div>
+													<div class="order-paper">123</div>
+													<div class="check-result">未通过</div>
+													<div class="check-report"><a href="#####1">下载</a><br /><a href="######2">查看</a></div>
+													<div class="op">
+														<button class="my_btn">确认收货</button><br />
+														<button class="my_btn">评价</button><br />
+														<button class="my_btn">查看</button><br />
+														<button class="my_btn">删除</button>
+													</div>
+												</div>
+											</li>
+											<li class="clearfix">
+												<div class="order-item-title">
+													<ul class="clearfix">
+														<li>下单时间：</li>
+														<li>订单编号：</li>
+														<li>承建单位：</li>
+														<li>联系方式：</li>
+													</ul>
+												</div>
+												<div class="order-item-list clearfix">
+													<div class="wtdw">算快乐的减肥了上课的减肥快乐束带结发了速度快解放了深刻接待费了上课的减肥</div>
+													<div class="money">总额：¥888 <br />应付应付：¥8888.88</div>
+													<div class="is-urgent">是/否</div>
+													<div class="order-status">待尖刺</div>
+													<div class="order-paper">123</div>
+													<div class="check-result">未通过</div>
+													<div class="check-report"><a href="#####1">下载</a><br /><a href="######2">查看</a></div>
+													<div class="op">
+														<button class="my_btn">确认收货</button><br />
+														<button class="my_btn">评价</button><br />
+														<button class="my_btn">查看</button><br />
+														<button class="my_btn">删除</button>
+													</div>
+												</div>
+											</li>
+											<li class="clearfix">
+												<div class="order-item-title">
+													<ul class="clearfix">
+														<li>下单时间：</li>
+														<li>订单编号：</li>
+														<li>承建单位：</li>
+														<li>联系方式：</li>
+													</ul>
+												</div>
+												<div class="order-item-list clearfix">
+													<div class="wtdw">算快乐的减肥了上课的减肥快乐束带结发了速度快解放了深刻接待费了上课的减肥</div>
+													<div class="money">总额：¥888 <br />应付应付：¥8888.88</div>
+													<div class="is-urgent">是/否</div>
+													<div class="order-status">待付款</div>
+													<div class="order-paper">123</div>
+													<div class="check-result">未通过</div>
+													<div class="check-report"><a href="#####1">下载</a><br /><a href="######2">查看</a></div>
+													<div class="op">
+														<button class="my_btn">确认收货</button><br />
+														<button class="my_btn">评价</button><br />
+														<button class="my_btn">查看</button><br />
+														<button class="my_btn">删除</button>
+													</div>
+												</div>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="sesstion-tab">
+								<div class="sesstion-main">
+									<div class="search clearfix">
+										<div class="search-item">
+											<p>订单类型：</p>
+											<div class="search-text">
+												<select name="">
+													<option value="">订单类型一</option>
+													<option value="">订单类型二</option>
+													<option value="">订单类型三</option>
+													<option value="">订单类型四</option>
+													<option value="">订单类型五</option>
+													<option value="">订单类型六</option>
+												</select>
+											</div>
+										</div>
+										<div class="search-item">
+											<p>订单编号：</p>
+											<div class="search-text">
+												<input type="" name="" id="" value="" />
+											</div>
+										</div>
+										<div class="search-item">
+											<p>交易状态：</p>
+											<div class="search-text">
+												<select name="">
+													<option value="">交易状态一</option>
+													<option value="">交易状态二</option>
+													<option value="">交易状态三</option>
+													<option value="">交易状态四</option>
+													<option value="">交易状态五</option>
+													<option value="">交易状态六</option>
+												</select>
+											</div>
+										</div>
+										<div class="search-item">
+											<p>评价状态：</p>
+											<div class="search-text">
+												<input type="" name="" id="" value="" />
+											</div>
+										</div>
+										<div class="search-item">
+											<p>售后服务：</p>
+											<div class="search-text">
+												<select name="">
+													<option value="">售后服务一</option>
+													<option value="">售后服务二</option>
+													<option value="">售后服务三</option>
+													<option value="">售后服务四</option>
+													<option value="">售后服务五</option>
+													<option value="">售后服务六</option>
+												</select>
+											</div>
+										</div>
+										<div class="search-item">
+											<p>检测机构：</p>
+											<div class="search-text">
+												<input type="text" />
+											</div>
+										</div>
+										<div class="search-item">
+											<p>下单时间：</p>
+											<div class="search-text">
+												<input type="" name="" id="" value="" />
+											</div>
+										</div>
+										<div class="search-item">
+											<div class="search-text">
+												<button type="button" class="my_btn">搜&ensp;索</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="sesstion-tab">
+								<div class="sesstion-main">
+									<div class="search clearfix">
+										<div class="search-item">
+											<p>订单类型：</p>
+											<div class="search-text">
+												<select name="">
+													<option value="">订单类型一</option>
+													<option value="">订单类型二</option>
+													<option value="">订单类型三</option>
+													<option value="">订单类型四</option>
+													<option value="">订单类型五</option>
+													<option value="">订单类型六</option>
+												</select>
+											</div>
+										</div>
+										
+									</div>
+								</div>
+							</div>
+							<div class="sesstion-tab">
+								<div class="sesstion-main">
+									<div class="search clearfix">
+										<div class="search-item">
+											<p>订单类型：</p>
+											<div class="search-text">
+												<select name="">
+													<option value="">订单类型一</option>
+													<option value="">订单类型二</option>
+													<option value="">订单类型三</option>
+													<option value="">订单类型四</option>
+													<option value="">订单类型五</option>
+													<option value="">订单类型六</option>
+												</select>
+											</div>
+										</div>
+										
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer">&copy;版权所有</div>
+			</div>
+		</div>
+		<script src="lib/assets/js/jquery1.12.3.js" type="text/javascript" charset="utf-8"></script>
+		<script src="lib/assets/js/jquery.pagination.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/order.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+
+</html>
