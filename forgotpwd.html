@@ -1,10 +1,75 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
 		<meta charset="UTF-8">
-		<title>忘记密码</title>
+		<title>找回密码</title>
+		<link rel="stylesheet" type="text/css" href="css/public.css" />
+		<link rel="stylesheet" type="text/css" href="css/forgotpwd.css" />
 	</head>
+
 	<body>
-		<h1>我靠，密码忘记了。要在这里改了。</h1>
+		<div class="container">
+			<div class="logo">
+				<img src="img/logo.jpg" />
+				<h1>找回密码</h1>
+			</div>
+			<div class="header">
+				<!--
+                	作者：tanxiang6690@163.com
+                	时间：2017-07-18
+                	描述：header为导航部分，暂时做为占位符放到这边，看后期的需要
+                -->
+			</div>
+			<div class="inner-container">
+				<ul class="return-pwd">
+					<li class="first active">账号确认</li>
+					<li class="second">重置密码</li>
+				</ul>
+				<div class="return-pwd-content">
+					<ul class="return-pwd-item active">
+						<li class="return-tip">为了你的帐号安全，请完成身份验证</li>
+						<li>
+							<p>请输入手机号：</p>
+							<input type="text" placeholder="请输入手机号" autofocus/>
+							<div>请输入用户名/邮箱/手机号码</div>
+						</li>
+						<li class="btn">
+							<p>确认新密码：</p>
+							<input type="text" placeholder="请输入验证码" />
+							<button class="my_btn">获取验证码</button>
+						</li>
+						<li>
+							<input class="my_btn first-next" type="button" value="下一步" />
+						</li>
+					</ul>
+					<ul class="return-pwd-item">
+						<!--<li class="return-tip">您正在找回的帐号是：tanxiangfree</li>-->
+						<li class="return-tips">请输入用户名/邮箱/手机号码</li>
+						<li>
+							<p>新密码：</p>
+							<input type="password" placeholder="新密码" autofocus/>
+							<div class="tips">
+								<div id="triangle-left"></div>
+								<p>长度为6-14个字符</p>
+								<p>支持数字、大小写和标点符号</p>
+								<p>不容许有空格</p>
+							</div>
+						</li>
+						<li>
+							<p>确认新密码：</p>
+							<input type="password" placeholder="确认新密码" />
+						</li>
+						<li>
+							<input class="my_btn first-next" type="button" value="确&ensp;定" />
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer">&copy;版权所有</div>
+		</div>
+		<script src="lib/assets/js/jquery1.12.3.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/forgotpwd.js" type="text/javascript" charset="utf-8"></script>
 	</body>
+
 </html>

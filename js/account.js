@@ -51,8 +51,10 @@ function getTabActiveH(obj){
 	return obj.outerHeight();
 }
 $(function(){
+	// sesstion-tab的切换
 	var tab = $('.sesstion-right .sesstion-tab');
 	var sesstionLeft = $('.sesstion-left');
+	// 动态的给session-right设置高度。
 	var result = getTabActiveH($('.sesstion-right .sesstion-tab.active'));
 	console.log(sesstionLeft)
 	sesstionLeft.css({
@@ -60,7 +62,9 @@ $(function(){
 	});
 	$('.sesstion-left .op-item').on('click', function(){
 		var index = $(this).index() - 2;
+		// 给自己添加样式
 		$(this).addClass('active').siblings().removeClass('active')
+		// 切换
 		tab.eq(index).addClass('active').siblings().removeClass('active');
 		result = getTabActiveH($('.sesstion-right .sesstion-tab.active'));
 		console.log(result)
