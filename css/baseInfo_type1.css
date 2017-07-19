@@ -1,0 +1,160 @@
+.container .inner-container {
+	padding: 0 140px;
+	min-height: 780px;
+	box-sizing: border-box;
+}
+
+.container .inner-container .info-tips {
+	height: 34px;
+	width: 482px;
+	background: red;
+	margin: 20px auto;
+}
+
+.container .inner-container .title {
+	line-height: 3;
+}
+
+.container .inner-container .user_type {
+	width: 100%;
+	height: 50px;
+	margin: 30px 0;
+}
+
+.container .inner-container .user_type p {
+	height: 100%;
+	width: 13%;
+	float: left;
+	line-height: 50px;
+	font-size: 18px;
+}
+
+.container .inner-container .user_type input {
+	display: block;
+	height: 30px;
+	width: 30%;
+	text-indent: 1.5em;
+	float: left;
+	margin-top: 10px;
+}
+
+.container .inner-container .user_type .base-info li {
+	height: 60px;
+	width: 100%;
+}
+
+.container .inner-container .user_type .base-info li div {
+	float: left;
+	height: 100%;
+	width: 13%;
+	text-align: right;
+	line-height: 60px;
+}
+
+.container .inner-container .user_type .base-info li div.right {
+	height: 60px;
+	width: 87%;
+	float: left;
+	padding: 15px 0;
+	box-sizing: border-box;
+}
+.container .inner-container .user_type .base-info li div.right .kind-tips{
+	width: 28%;	
+	line-height: 30px;
+	text-align: left;
+	text-indent: 1.5em;
+	color: orangered;
+	font-size: 12px;
+}
+.container .inner-container .user_type .base-info li div.right input {
+	width: 60%;
+	height: 30px;
+	margin: 0;
+	float: left;
+}
+
+.container .inner-container .user_type .base-info li div.right select {
+	width: 15%;
+	height: 30px;
+	margin: 0;
+	float: left;
+	margin-right: 5px;
+}
+
+.container .inner-container .user_type .base-info li div.right .address {
+	width: 40%;
+}
+
+.container .inner-container .user_type .base-info li button {
+	height: 34px;
+	line-height: 10px;
+	margin: 40px 100px;
+}
+
+
+/* 注册成功的弹框 */
+
+.mask {
+	position: absolute;
+	top: 0;
+	left: 0;
+	/*margin: auto;*/
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 100;
+	display: none;
+}
+
+.sure {
+	height: 200px;
+	width: 460px;
+	background: #fff;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	margin: auto;
+	border-radius: 4px;
+}
+
+.sure .title {
+	height: 50px;
+	width: 100%;
+	padding: 0 10px;
+	background-color: #f3f3f3;
+	border-bottom: 1px solid #e6e6e6;
+	box-sizing: border-box;
+	border-top-right-radius: 4px;
+	border-top-left-radius: 4px;
+}
+
+
+.sure .title span {
+	width: 50px;
+	height: 50px;
+	float: right;
+	text-align: center;
+	line-height: 50px;
+	cursor: pointer;
+}
+
+.sure .msg h1 {
+	font-size: 16px;
+	line-height: 3;
+	font-weight: 100;
+	text-align: center;
+}
+.sure button {
+	width: 100px;
+	height: 40px;
+	color: #fff;
+	background-color: #58b7ff;
+	border-radius: 4px;
+	font-size: 16px;
+	transition: all .6s ease;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+	bottom: 10px;
+}

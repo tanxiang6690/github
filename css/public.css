@@ -93,7 +93,7 @@ select:focus {
 }
 
 
-/*这个类用来让所有的内容缩进20px*/
+/*这个类用来让所有的内容左右缩进20px*/
 
 .pad20 {
 	padding: 0 20px;
@@ -101,13 +101,18 @@ select:focus {
 }
 
 
-/*这个类用来让所有的内容缩进10px*/
+/*这个类用来让所有的内容左右缩进10px*/
 
 .pad10 {
 	padding: 0 10px;
 	box-sizing: border-box;
 }
 
+/*这个类用来让所有的内容左右缩进50px*/
+.pad150 {
+	padding: 0 90px;
+	box-sizing: border-box;
+}
 
 /*这个类用来撑开容器的高度*/
 
@@ -179,6 +184,8 @@ select:focus {
 .container .inner-container {
 	width: 1200px;
 	margin: 0 auto;
+	/*height: 50px;*/
+	/*background: red;*/
 }
 
 
@@ -222,4 +229,52 @@ select:focus {
 	line-height: 50px;
 	text-align: center;
 	border-top: 1px solid #e6e6e6;
+}
+
+
+/* 关于边框线的设置 */
+
+.border-l{
+	border-left: 1px solid #e6e6e6;
+}
+.border-r{
+	border-right: 1px solid #e6e6e6;
+}
+.border-t{
+	border-top: 1px solid #e6e6e6;
+}
+.border-b {
+	border-bottom: 1px solid #e6e6e6;
+}
+
+/* 步骤提示 */
+.press-tips {
+	height: 34px;
+	width: 482px;
+	background: url(../img/mod_sub_nav.png) no-repeat;
+	/*margin: 30px 0 30px 70px;*/
+	margin: 30px auto;
+}
+
+.press-tips li {
+	height: 100%;
+	width: 241px;
+	float: left;
+	line-height: 34px;
+	padding-left: 70px;
+	box-sizing: border-box;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.press-tips .first.active {
+	background: url(../img/sub_nav_1.png) no-repeat;
+	color: #2e82ff;
+}
+
+.press-tips .second.active {
+	background: url(../img/sub_nav_3.png) no-repeat;
+	background-size: cover;
+	color: #2e82ff;
+	padding-left: 80px;
 }

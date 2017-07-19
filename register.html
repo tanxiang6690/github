@@ -21,36 +21,34 @@
 						<h1>新用户注册</h1>
 						<ul>
 							<li class="register-tips">
-								<i class="iconfont icon-close"></i>
-								手机号不能为空！
+								<i class="iconfont icon-close"></i> 手机号不能为空！
 							</li>
 							<li>
 								<i class="iconfont icon-jiedanrenxinxi"></i>
-								<input type="text" placeholder="请输入用户名" autofocus/>								
+								<input type="text" placeholder="请输入用户名" autofocus/>
 							</li>
 							<li>
 								<i class="iconfont icon-suo"></i>
-								<input type="password" placeholder="密码"/>								
+								<input type="password" placeholder="密码" />
 							</li>
 							<li>
 								<i class="iconfont icon-fenlei"></i>
-								<select name="">
+								<select name="" id="select_type">
 									<option value="">用户类别</option>
-									<option value="">上了大姐夫看了</option>
-									<option value="">水电费水电费</option>
-									<option value="">水电费水电费</option>
-								</select>							
+									<option value="type_1">用户类型1</option>
+									<option value="type_2">用户类型2</option>
+								</select>
 							</li>
 							<li>
 								<i class="iconfont icon-shouji"></i>
-								<input type="text" placeholder="请输入常用手机号"/>
+								<input type="text" placeholder="请输入常用手机号" />
 							</li>
 							<li class="btn-code">
 								<i class="iconfont icon-vpn_key"></i>
-								<input type="text" placeholder="请输入验证码"/>
+								<input type="text" placeholder="请输入验证码" />
 								<button class="my_btn">获取验证码</button>
 							</li>
-							<li class="btn"><button class="my_btn">同意协议并注册</button></li>
+							<li class="btn"><button class="my_btn register_btn">同意协议并注册</button></li>
 							<li class="login">
 								<a href="">《优品联盟服务协议》</a>
 								<a href="login.html">已有账号？<span>登录</span></a>
@@ -61,6 +59,8 @@
 			</div>
 			<div class="footer">&copy;版权所有</div>
 		</div>
+		<script src="lib/assets/js/jquery1.12.3.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/register.js" type="text/javascript" charset="utf-8"></script>
 	</body>
 
 </html>
