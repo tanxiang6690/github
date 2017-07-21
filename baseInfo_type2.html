@@ -1,10 +1,247 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
 		<meta charset="UTF-8">
+		<link rel="stylesheet" href="lib/font/iconfont.css" />
 		<title>基本信息二</title>
+		<link rel="stylesheet" type="text/css" href="css/public.css" />
+		<link rel="stylesheet" type="text/css" href="css/baseInfo_type1.css" />
+		<link rel="stylesheet" type="text/css" href="css/baseInfo_type2.css" />
 	</head>
+
 	<body>
-		<h1>基本信息二</h1>
+		<div class="container type2">
+			<div class="logo">
+				<img src="img/logo.jpg" />
+				<h1>基本信息二</h1>
+			</div>
+			<div class="header">
+				<!--
+                	作者：tanxiang6690@163.com
+                	时间：2017-07-19
+                	描述：此处统一样式，只是作为一个占位符而已，请勿删除
+                -->
+			</div>
+			<div class="inner-container clearfix">
+				<ul class="press-tips">
+					<!--
+                    	作者：tanxiang6690@163.com
+                    	时间：2017-07-21
+                    	描述：此处样式，是通过给每个li添加一个active的类来控制
+                    -->
+					<li class="first active">填写用户信息</li>
+					<li class="second">填写银行信息</li>
+					<li class="third">注册成功</li>
+				</ul>
+				<h1 class="title border-b">用户类型</h1>
+				<div class="user_type pad90">
+					<p>用户种类：</p><input type="text" value="用户类型二" disabled="disabled" />
+				</div>
+				<h1 class="title border-b">基本资料</h1>
+				<div class="user_type pad90">
+					<ul class="base-info clearfix">
+						<li>
+							<div>机构名称：</div>
+							<div class="right">
+								<input type="text" placeholder="机构名称" />
+								<div class="kind-tips">错误提示</div>
+							</div>
+						</li>
+						<li>
+							<div>机构类别：</div>
+							<div class="right">
+								<select name="">
+									<option value="">机构类别一</option>
+									<option value="">机构类别二</option>
+									<option value="">机构类别三</option>
+									<option value="">机构类别四</option>
+									<option value="">机构类别五</option>
+									<option value="">机构类别六</option>
+								</select>
+								<div class="kind-tips">错误提示</div>
+							</div>
+						</li>
+						<li>
+							<div>所属行业：</div>
+							<div class="right">
+								<select name="">
+									<option value="">所属行业一</option>
+									<option value="">所属行业二</option>
+									<option value="">所属行业三</option>
+									<option value="">所属行业四</option>
+									<option value="">所属行业五</option>
+									<option value="">所属行业六</option>
+								</select>
+								<div class="kind-tips">错误提示</div>
+							</div>
+						</li>
+						<li>
+							<div>业务范围：</div>
+							<div class="right">
+								<div class="scope-business">
+									<input type="checkbox" class="check-checkbox" />检测
+								</div>
+								<div class="scope-business">
+									<input type="checkbox" class="check-checkbox" />校准
+								</div>
+								<div class="scope-business">
+									<input type="checkbox" class="check-checkbox" />认证
+								</div>
+								<div class="kind-tips">错误提示</div>
+							</div>
+						</li>
+						<li>
+							<div>机构人数：</div>
+							<div class="right">
+								<select name="">
+									<option value="">59~99人</option>
+									<option value="">100~199人</option>
+									<option value="">200~299人</option>
+									<option value="">300人以上</option>
+								</select>
+								<div class="kind-tips">错误提示</div>
+							</div>
+						</li>
+						<li>
+							<div>实验室面积(m2)：</div>
+							<div class="right">
+								<select name="">
+									<option value="">200以内</option>
+									<option value="">200-500</option>
+									<option value="">500-800</option>
+									<option value="">800以上</option>
+								</select>
+								<div class="kind-tips">错误提示</div>
+							</div>
+						</li>
+						<li>
+							<div>去年检测收入(元)：</div>
+							<div class="right">
+								<select name="">
+									<option value="">500万以内</option>
+									<option value="">500-1000万</option>
+									<option value="">1000-2000万</option>
+									<option value="">2000万以上</option>
+								</select>
+							</div>
+						</li>
+						<li>
+							<div>联络人：</div>
+							<div class="right">
+								<input type="text" placeholder="联络人" />
+								<div class="kind-tips">错误提示</div>
+							</div>
+						</li>
+						<li>
+							<div>联系方式：</div>
+							<div class="right">
+								<input type="text" placeholder="联系方式" />
+								<div class="kind-tips">错误提示</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<h1 class="title border-b">企业法人营业执照及组织机构代码证</h1>
+				<div class="user_type tab clearfix pad90">
+					<div class="zhengjian-type">
+						<p>证件类型</p>
+						<p class="tab">
+							<input type="radio" id="faren" checked>
+							<label for="faren">企业法人营业执照</label>
+							<input type="radio" id="zuzhi">
+							<label for="zuzhi">hahahahh</label>
+						</p>
+					</div>
+					<div class="file-tab active clearfix">
+						<div class="file marg-l40">
+							<h1>企业法人营业执照</h1>
+							<div class="file-img upload">
+								<i class="position-c to-upload">点击上传</i>
+								<i class="iconfont icon-dianjishangchuan position-c"></i>
+							</div>
+							<div class="file-img">
+								<img src="img/demo1.jpg" / class="position-c">
+								<i class="iconfont icon-zoom position-c"></i>
+								<i class="position-c to-upload">示例</i>
+							</div>
+						</div>
+						<div class="file">
+							<h1>组织机构代码证</h1>
+							<div class="file-img upload">
+								<i class="position-c to-upload">点击上传</i>
+								<i class="iconfont icon-dianjishangchuan position-c"></i>
+							</div>
+							<div class="file-img">
+								<img src="img/demo2.jpg" />
+								<i class="iconfont icon-zoom position-c"></i>
+								<i class="position-c to-upload">示例</i>
+							</div>
+						</div>
+					</div>
+					<div class="file-tab clearfix">
+						<div class="file marg-l40">
+							<h1>啊啊啊啊啊啊啊</h1>
+							<div class="file-img upload">
+								<i class="position-c to-upload">点击上传</i>
+								<i class="iconfont icon-dianjishangchuan position-c"></i>
+							</div>
+							<div class="file-img">
+								<img src="img/demo1.jpg" / class="position-c">
+								<i class="iconfont icon-zoom position-c"></i>
+								<i class="position-c to-upload">示例</i>
+							</div>
+						</div>
+					</div>
+				</div>
+				<h1 class="title border-b">代理人马云的证件照片</h1>
+				<div class="user_type clearfix pad90">
+					<div class="file marg-l40">
+						<h1>个人信息页</h1>
+						<div class="file-img upload">
+							<i class="position-c to-upload">点击上传</i>
+							<i class="iconfont icon-dianjishangchuan position-c"></i>
+						</div>
+						<div class="file-img">
+							<img src="img/demo1-1.jpg" />
+							<i class="iconfont icon-zoom position-c"></i>
+							<i class="position-c to-upload">示例</i>
+						</div>
+					</div>
+					<div class="file">
+						<h1>国徽页</h1>
+						<div class="file-img upload">
+							<i class="position-c to-upload">点击上传</i>
+							<i class="iconfont icon-dianjishangchuan position-c"></i>
+						</div>
+						<div class="file-img">
+							<img src="img/demo1-2.jpg" />
+							<i class="iconfont icon-zoom position-c"></i>
+							<i class="position-c to-upload">示例</i>
+						</div>
+					</div>
+				</div>
+				<h1 class="title border-b">企业委托书扫描 委托书（必须盖有公司公章或者财务专用章）<a href="">下载企业专用章</a></h1>
+				<div class="user_type clearfix pad90">
+					<div class="file marg-l40">
+						<!--<h1>个人信息页</h1>-->
+						<div class="file-img upload">
+							<i class="position-c to-upload">点击上传</i>
+							<i class="iconfont icon-dianjishangchuan position-c"></i>
+						</div>
+						<div class="file-img">
+							<img src="img/demo1-1.jpg" />
+							<i class="iconfont icon-zoom position-c"></i>
+							<i class="position-c to-upload">示例</i>
+						</div>
+					</div>
+					<div class="btn"><a href="bankinfo.html"><button class="my_btn">下一步</button></a></div>
+				</div>
+			</div>
+			<div class="footer">&copy;版权所有</div>
+		</div>
+		<script src="lib/assets/js/jquery1.12.3.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/baseInfo_type2.js" type="text/javascript" charset="utf-8"></script>
 	</body>
+
 </html>

@@ -92,6 +92,10 @@ select:focus {
 	-o-transition: all .6s ease;
 }
 
+.btn{
+	width: 100%;
+	float: left;
+}
 
 /*这个类用来让所有的内容左右缩进20px*/
 
@@ -108,11 +112,14 @@ select:focus {
 	box-sizing: border-box;
 }
 
+
 /*这个类用来让所有的内容左右缩进50px*/
-.pad150 {
+
+.pad90 {
 	padding: 0 90px;
 	box-sizing: border-box;
 }
+
 
 /*这个类用来撑开容器的高度*/
 
@@ -234,20 +241,25 @@ select:focus {
 
 /* 关于边框线的设置 */
 
-.border-l{
+.border-l {
 	border-left: 1px solid #e6e6e6;
 }
-.border-r{
+
+.border-r {
 	border-right: 1px solid #e6e6e6;
 }
-.border-t{
+
+.border-t {
 	border-top: 1px solid #e6e6e6;
 }
+
 .border-b {
 	border-bottom: 1px solid #e6e6e6;
 }
 
+
 /* 步骤提示 */
+
 .press-tips {
 	height: 34px;
 	width: 482px;
@@ -277,4 +289,20 @@ select:focus {
 	background-size: cover;
 	color: #2e82ff;
 	padding-left: 80px;
+}
+
+
+/* 定位到正中央 */
+
+.position-c {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+.marg-l40{
+	margin-right: 40px;
 }

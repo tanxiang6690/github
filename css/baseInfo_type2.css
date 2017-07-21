@@ -1,0 +1,134 @@
+.container.type2 .inner-container .press-tips {
+	background-image: url(../img/mod_sub_nav-2.png);
+	width: 723px;
+}
+
+.container.type2 .inner-container .press-tips li {
+	background-repeat: no-repeat;
+}
+
+.container.type2 .inner-container .press-tips .second.active {
+	background-image: url(../img/sub_nav_2.png);
+}
+
+.container.type2 .inner-container .press-tips .third.active {
+	background-image: url(../img/sub_nav_3.png);
+}
+
+.container.type2 .inner-container .user_type.tab {
+	min-height: 190px;
+}
+
+.container.type2 .inner-container .user_type .file-tab {
+	position: absolute;
+	left: 90px;
+	display: none;
+}
+
+.container.type2 .inner-container .user_type .file-tab.active {
+	display: block;
+}
+
+.container.type2 .inner-container .user_type .base-info li div {
+	width: 17%;
+}
+
+.container.type2 .inner-container .user_type .base-info li div.right {
+	width: 83%;
+}
+
+.container.type2 .inner-container .user_type .base-info li div.right .check-checkbox {
+	width: 15px;
+}
+
+.container.type2 .inner-container .user_type .base-info li div.right select {
+	text-indent: 1.5em;
+	width: 60%;
+}
+
+.container.type2 .inner-container .user_type .base-info li div.right .scope-business {
+	width: 20%;
+	height: 100%;
+	line-height: 30px;
+	text-align: left;
+	float: left;
+}
+
+.container.type2 .inner-container .user_type .zhengjian-type {
+	height: 50px;
+	width: 100%;
+	/*background: red;*/
+	line-height: 50px;
+}
+
+.container.type2 .inner-container .user_type .zhengjian-type p {
+	width: 25%;
+}
+
+.container.type2 .inner-container .user_type .zhengjian-type p.tab {
+	width: 50%;
+}
+
+.container.type2 .inner-container .user_type .zhengjian-type p input {
+	width: 20px;
+	height: 20px;
+	margin-top: 15px;
+}
+
+.container.type2 .inner-container .user_type .zhengjian-type p label,
+.container.type2 .inner-container .user_type .zhengjian-type p input {
+	display: inline-block;
+	float: left;
+}
+
+.container.type2 .inner-container .user_type .file {
+	height: 150px;
+	width: 350px;
+	/*background: #EEEEEE;*/
+	float: left;
+}
+
+.container.type2 .inner-container .user_type .file h1 {
+	font-weight: normal;
+	line-height: 40px;
+}
+
+.container.type2 .inner-container .user_type .file .file-img {
+	height: 110px;
+	width: 45%;
+	float: left;
+	position: relative;
+}
+
+.container.type2 .inner-container .user_type .file .file-img:first-of-type {
+	margin-right: 5%;
+}
+
+.container.type2 .inner-container .user_type .file .file-img img {
+	width: 100%;
+	height: 100%;
+}
+
+.container.type2 .inner-container .user_type .file .file-img.upload i {
+	background: rgba(0, 0, 0, 0.1);
+	border: 2px dashed #cacaca;
+	box-sizing: border-box;
+}
+
+.container.type2 .inner-container .user_type .file .file-img.upload i.to-upload {
+	color: #666;
+	cursor: pointer;
+}
+
+.container.type2 .inner-container .user_type .file .file-img i {
+	background: rgba(0, 0, 0, 0.3);
+	font-size: 40px;
+	line-height: 110px;
+	text-align: center;
+	color: #fff;
+}
+
+.container.type2 .inner-container .user_type .file .file-img i.to-upload {
+	line-height: 160px;
+	font-size: 14px;
+}
