@@ -1,0 +1,10 @@
+.inner-container h1{
+	width: 100%;
+	text-align: center;
+	line-height: 3;
+	font-size: 18px;
+}
+.inner-container ul li{
+	width: 100%;
+	line-height: 2;
+}

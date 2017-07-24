@@ -78,15 +78,15 @@
 }
 
 .container .inner-container .register .inner-register ul li i{
-	width: 38px;
-	height: 38px;
+	width: 36px;
+	height: 36px;
 	font-size: 20px;
 	line-height: 38px;
 	text-align: center;
 	background: #f1f1f1;
 	position: absolute;
-	top: 0;
-	left: 0;
+	top: 1px;
+	left: 1px;
 }
 .container .inner-container .register .inner-register ul li input,
 .container .inner-container .register .inner-register ul li select{

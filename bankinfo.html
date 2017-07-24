@@ -7,14 +7,15 @@
 		<title>银行信息</title>
 		<link rel="stylesheet" type="text/css" href="css/public.css" />
 		<link rel="stylesheet" type="text/css" href="css/baseInfo_type1.css" />
-		<link rel="stylesheet" type="text/css" href="css/baseInfo_type2.css" />
+		<!--<link rel="stylesheet" type="text/css" href="css/baseInfo_type2.css"/>-->
+		<link rel="stylesheet" type="text/css" href="css/bankinfo.css" />
 	</head>
 
 	<body>
-		<div class="container type2">
+		<div class="container bank">
 			<div class="logo">
 				<img src="img/logo.jpg" />
-				<h1>基本信息二</h1>
+				<h1>银行卡信息</h1>
 			</div>
 			<div class="header">
 				<!--
@@ -34,11 +35,97 @@
 					<li class="second active">填写银行信息</li>
 					<li class="third">注册成功</li>
 				</ul>
-				
-				
-			<div class="footer">&copy;版权所有</div>
-		</div>
-		
+				<h1 class="title border-b">银行卡信息</h1>
+				<div class="user_type pad90">
+					<ul class="base-info clearfix">
+						<li>
+							<div>银行开户名：</div>
+							<div class="right">
+								<input type="text" placeholder="银行开户名" />
+								<p>支付宝将会向以王健林为开户名的对公账户中汇入一笔确认资金，若公司名称和账户开户姓名不一致，确认资金将汇款失败。</p>
+							</div>
+						</li>
+						<li>
+							<div>开户银行：</div>
+							<div class="right">
+								<select name="">
+									<option value="">建设银行</option>
+									<option value="">交通银行</option>
+									<option value="">工商银行</option>
+									<option value="">农业银行</option>
+									<option value="">中国银行</option>
+									<option value="">浦发银行</option>
+								</select>
+								<div class="kind-tips">错误提示</div>
+							</div>
+						</li>
+						<li>
+							<div>开户银行所在地：</div>
+							<div class="right address">
+								<select name="">
+									<option value="">浙江</option>
+									<option value="">上海</option>
+									<option value="">所属行业三</option>
+									<option value="">所属行业四</option>
+									<option value="">所属行业五</option>
+									<option value="">所属行业六</option>
+								</select>
+								<select name="">
+									<option value="">杭州</option>
+									<option value="">所属行业二</option>
+									<option value="">所属行业三</option>
+									<option value="">所属行业四</option>
+									<option value="">所属行业五</option>
+									<option value="">所属行业六</option>
+								</select>
+								<div class="kind-tips">错误提示</div>
+							</div>
+						</li>
+						<li>
+							<div>开户银行支行名称：</div>
+							<div class="right">
+								<select name="">
+									<option value="">余杭农村信用社</option>
+									<option value="">100~199人</option>
+									<option value="">200~299人</option>
+									<option value="">300人以上</option>
+								</select>
+								<div class="kind-tips">错误提示</div>
+							</div>
+						</li>
+						<li>
+							<div>对公银行账号：</div>
+							<div class="right">
+								<input type="text" placeholder="对公银行账号" />
+								<div class="kind-tips">错误提示</div>
+							</div>
+						</li>
+						<li class="btn">
+							<a href="baseInfo_type2.html"><button class="my_btn">上一步</button></a>
+							<a href="javascript:;"><button class="my_btn next">下一步</button></a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer">&copy;版权所有</div>
+			</div>
+			<!--
+        	作者：tanxiang6690@163.com
+        	时间：2017-07-24
+        	描述：遮罩层 ****新用户注册成功
+        -->
+			<div class="mask">
+				<div class="sure">
+					<div class="title">
+						<span class="close"><i class="iconfont icon-close"></i></span>
+					</div>
+					<div class="msg">
+						<h1>填写银行信息成功</h1>
+						<button type="button">确&ensp;认</button>
+					</div>
+				</div>
+			</div>
+			<script src="lib/assets/js/jquery1.12.3.js" type="text/javascript" charset="utf-8"></script>
+			<script src="js/bankinfo.js" type="text/javascript" charset="utf-8"></script>
 	</body>
 
 </html>

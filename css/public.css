@@ -92,10 +92,11 @@ select:focus {
 	-o-transition: all .6s ease;
 }
 
-.btn{
+.btn {
 	width: 100%;
 	float: left;
 }
+
 
 /*这个类用来让所有的内容左右缩进20px*/
 
@@ -138,6 +139,20 @@ select:focus {
 	-webkit-transition: all .2s ease;
 	/* Opera */
 	-o-transition: all .2s ease;
+}
+
+
+/* 左浮动 */
+
+.float-l {
+	float: left;
+}
+
+
+/* 右浮动 */
+
+.float-r {
+	float: right;
 }
 
 
@@ -303,6 +318,6 @@ select:focus {
 	margin: auto;
 }
 
-.marg-l40{
+.marg-l40 {
 	margin-right: 40px;
 }
