@@ -15,7 +15,8 @@ h6,
 img,
 body,
 a,
-i {
+i,
+pre {
 	padding: 0;
 	margin: 0;
 	list-style: none;

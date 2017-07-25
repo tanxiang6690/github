@@ -1,0 +1,48 @@
+.container.about-us .nav-box {
+	width: 100%;
+	border-bottom: 2px solid #08d;
+}
+
+.container.about-us .nav-box .nav {
+	border: none;
+}
+
+.container.about-us .item {
+	width: 100%;
+}
+
+.container.about-us .item li {
+	width: 100%;
+	height: 400px;
+	/*background: red;*/
+}
+.container.about-us .item li.bg1{
+	background-color: #e7eef7;
+}
+.container.about-us .item li ul {
+	/*width: 100%;*/
+	height: 100%;
+}
+
+.container.about-us .item li ul li {
+	width: 50%;
+	height: 100%;
+	padding: 59px;
+	box-sizing: border-box;
+}
+
+.container.about-us .item li ul li h1 {
+	font-size: 40px;
+}
+
+.container.about-us .item li ul li h3 {
+	display: block;
+	font-size: 21px;
+	margin-top: 16px;
+	margin-bottom: 38px;
+}
+
+.container.about-us .item li ul li p{
+	font-size: 14px;
+	line-height: 1.5;
+}
