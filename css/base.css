@@ -96,7 +96,8 @@
 	color: #08d;
 }
 
-/* 底部导航开始 */
+
+/* 友情链接 */
 
 .jr-footer {
 	height: 168px;
@@ -108,6 +109,9 @@
 	margin: 0 auto;
 	position: relative;
 }
+
+
+/* 底部导航开始 */
 
 .footer-left {
 	width: 740px;
@@ -154,6 +158,11 @@
 	color: inherit;
 	padding: 0 10px;
 	display: inline-block;
+	font-size: 12px;
+}
+
+.friendly-list a:hover {
+	color: #08d;
 }
 
 .footer-left .cp-right {

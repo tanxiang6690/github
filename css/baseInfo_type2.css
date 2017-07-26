@@ -37,6 +37,24 @@
 	width: 83%;
 }
 
+/* 送检页面开始 */
+.container.type2 .inner-container .user_type .base-info li div.right.ingredient select{
+	width: 15%;
+}
+.container.type2 .inner-container .user_type .base-info li div.right.ingredient input{
+	width: 28%;
+}
+.container.type2 .inner-container .user_type .base-info li div.right.check-purpose input.other{
+	width: 25%;
+}
+.container.type2 .inner-container .user_type .base-info li div.right.check-purpose .scope-business{
+	width: 15%;
+}
+.container.type2 .inner-container .user_type .base-info li div.right.check-purpose .scope-business.other{
+	width: 5%;
+}
+/* 送检页面结束 */
+
 .container.type2 .inner-container .user_type .base-info li div.right .check-checkbox {
 	width: 15px;
 }

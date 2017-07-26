@@ -211,6 +211,13 @@ select:focus {
 	/*background: red;*/
 }
 
+.user_type {
+	width: 100%;
+	min-height: 50px;
+	margin: 30px 0;
+	position: relative;
+}
+
 
 /* 确认修改密码页面的友情提示开始 */
 

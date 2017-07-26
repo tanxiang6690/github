@@ -10,7 +10,6 @@ $(function() {
 		ele2.css({
 			width: autoW
 		});
-		console.log(ele2)
 	}
 
 	// 动态的设置order-title li的宽度
