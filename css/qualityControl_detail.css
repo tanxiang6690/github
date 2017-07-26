@@ -1,0 +1,48 @@
+/*.item {
+	padding: 0;
+}*/
+
+.item .item-title {
+	line-height: 44px;
+	font-size: 12px;
+}
+
+.item .item-left ul li {
+	margin: 0;
+}
+
+.item .item-left ul li span,
+.item .item-left ul li strong {
+	display: block;
+	width: 100%;
+	font-size: 22px;
+	color: #000;
+	line-height: 50px;
+}
+
+.item .item-right ul {
+	padding-bottom: 18px;
+}
+
+.item .item-right ul li .item-right-img {
+	width: 87px;
+	height: 61px;
+	margin-right: 10px;
+}
+
+.item .item-right ul li .item-right-img img {
+	width: 100%;
+	height: 100%;
+}
+
+.item .item-right ul li .item-right-article {
+	width: 141px;
+	height: 65px;
+}
+
+.item .item-right ul li .item-right-article h5{
+	font-size: 14px;
+    line-height: 22px;
+    font-weight: 100;
+    overflow: hidden;
+}
