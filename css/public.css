@@ -52,13 +52,16 @@ img {
 
 input,
 select,
-button {
+button,
+textarea {
 	outline: none;
 	border: none;
+	resize: none;
 }
 
 input,
-select {
+select ,
+textarea{
 	border: 1px solid #e6e6e6;
 	border-radius: 2px;
 	box-sizing: border-box;
@@ -66,7 +69,8 @@ select {
 }
 
 input:focus,
-select:focus {
+select:focus,
+textarea:focus {
 	border: 1px solid #58b7ff;
 	transition: all .6s ease;
 	/* Firefox 4 */

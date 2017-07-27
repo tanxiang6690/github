@@ -1,0 +1,99 @@
+.container.base-info .base-info li div.right.is-fast input {
+	width: 15px;
+}
+
+.container.base-info .base-info li div.right.is-fast label {
+	line-height: 28px;
+	padding: 0 10px;
+}
+
+.container.base-info .inner-container .base-info li div.right.tao-can select {
+	width: 35%;
+}
+
+.container.base-info .inner-container .base-info li.table div {
+	line-height: 20px;
+}
+
+.container.base-info .inner-container .base-info li.table div.right {
+	margin-bottom: 30px;
+}
+
+.container.base-info .inner-container .base-info li.table div,
+.container.base-info .inner-container .base-info li.table div.right {
+	width: 100%;
+	text-align: left;
+}
+.container.base-info .inner-container .base-info li.table div.right form{
+	height: 40px;
+}
+.container.base-info .inner-container .base-info li.table div.right textarea{
+	width: 100%;
+	min-height: 100px;
+	padding: 10px 15px;
+	margin-top: 20px;
+	box-sizing: border-box;
+}
+
+.container.base-info .inner-container .base-info li.table div table {
+	border-radius: 2px;
+	width: 100%;
+}
+
+.container.base-info .inner-container .base-info li.table div table tr {
+	height: 30px;
+	line-height: 30px;
+	box-sizing: border-box;
+	font-size: 12px;
+	text-align: center;
+}
+
+.container.base-info .inner-container .base-info li.table div table tr:hover {
+	transition: all 0.6s ease;
+	background-color: #fdfcfc;
+	/*background-color: red;*/
+}
+
+.container.base-info .inner-container .base-info li.table div table tr:first-child {
+	background-color: #ececec;
+}
+
+.container.base-info .inner-container .base-info li.table div table tr:last-child td {
+	border-bottom: none;
+}
+
+.container.base-info .inner-container .base-info li.table div table tr+th,
+.container.base-info .inner-container .base-info li.table div table tr+td {
+	max-width: 30px;
+	/*padding: 0 30px;*/
+	/*box-sizing: border-box;*/
+	/*text-align: center;*/
+	/*position: relative;*/
+}
+
+.container.base-info .inner-container .base-info li.table div table tr input {
+	/*display: inline-block;*/
+	width: 15px;
+	/*margin-left:15px;*/
+}
+
+.container.base-info .inner-container h1 span{
+	color: red;
+}
+
+.container.base-info .inner-container .tab{
+	width: 100%;
+	min-height: 600px;
+	position: relative;
+}
+
+.container.base-info .inner-container .tab .user_type{
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: none;
+}
+.container.base-info .inner-container .tab .user_type.active{
+	display: block;
+}
+

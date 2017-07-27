@@ -8,10 +8,11 @@
 		<link rel="stylesheet" type="text/css" href="css/public.css" />
 		<link rel="stylesheet" type="text/css" href="css/baseInfo_type1.css" />
 		<link rel="stylesheet" type="text/css" href="css/baseInfo_type2.css" />
+		<link rel="stylesheet" type="text/css" href="css/baseInfo.css" />
 	</head>
 
 	<body>
-		<div class="container type2">
+		<div class="container type2 base-info">
 			<div class="logo">
 				<img src="img/logo.jpg" />
 				<h1>基本信息</h1>
@@ -24,23 +25,228 @@
                 -->
 			</div>
 			<div class="inner-container clearfix">
-				<ul class="press-tips">
-					<!--
-                    	作者：tanxiang6690@163.com
-                    	时间：2017-07-21
-                    	描述：此处样式，是通过给每个li添加一个active的类来控制
-                    -->
-					<li class="first">填写送检信息</li>
-					<li class="second active">选择方案</li>
-					<li class="third">订单确认</li>
-				</ul>
-				<h1 class="title border-b">纺织服装-样品信息</h1>
-				<div class="user_type tab clearfix pad90">
-					<div class="btn"><a href="orderConfirm.html"><button class="my_btn">下一步</button></a></div>
+				<div class="user_type clearfix pad90">
+					<ul class="base-info clearfix">
+						<li>
+							<div>检测单位：</div>
+							<div class="right">
+								<select name="">
+									<option value="">针织</option>
+									<option value="">梭织</option>
+									<option value="">毛线</option>
+									<option value="">无纺布</option>
+								</select>
+								<div class="kind-tips">错误提示</div>
+							</div>
+						</li>
+						<li>
+							<div>是否加急：</div>
+							<div class="right is-fast">
+								<form>
+									<input type="radio" class="float-l" checked="checked" name="is-fast" id="no" value="no" />
+									<label for="no" class="float-l">否</label>
+									<input type="radio" class="float-l" name="is-fast" id="yes" value="yes" />
+									<label for="yes" class="float-l">是&ensp;&ensp;</label>
+								</form>
+							</div>
+						</li>
+						<li>
+							<div>检测方式：</div>
+							<div class="right is-fast">
+								<form>
+									<input type="radio" class="float-l" checked="checked" name="tao-can" id="default-tao-can" value="male" />
+									<label for="default-tao-can" class="float-l">套餐检测</label>
+									<input type="radio" class="float-l" name="tao-can" id="self-tao-cao" value="self-tao-cao" />
+									<label for="self-tao-cao" class="float-l">自定义套餐</label>
+								</form>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<h1 class="title border-b">套餐检测（<span>推荐</span>）</h1>
+				<div class="tab">
+					<div class="user_type active pad90">
+						<ul class="base-info clearfix">
+							<li class="clearfix table">
+								<div>套餐：</div>
+								<div class="right tao-can">
+									<select name="">
+										<option value="">针织</option>
+										<option value="">梭织</option>
+										<option value="">毛线</option>
+										<option value="">无纺布</option>
+									</select>
+									<select name="">
+										<option value="">针织</option>
+										<option value="">梭织</option>
+										<option value="">毛线</option>
+										<option value="">无纺布</option>
+									</select>
+								</div>
+							</li>
+							<li class="clearfix table">
+								<div>套餐外可新增检测项目：</div>
+								<div class="right">
+									<table border="0" cellspacing="0" class="border-b border-l border-r border-t">
+										<tr>
+											<th class="border-b border-r">勾选</th>
+											<th class="border-b border-r">项目</th>
+											<th class="border-b">单价/（元）</th>
+										</tr>
+										<tr>
+											<td class="border-b border-r"><input type="checkbox" /></td>
+											<td class="border-b border-r">重金属</td>
+											<td class="border-b">500</td>
+										</tr>
+										<tr>
+											<td class="border-b border-r"><input type="checkbox" /></td>
+											<td class="border-b border-r">水洗尺寸变化率</td>
+											<td class="border-b">500</td>
+										</tr>
+										<tr>
+											<td class="border-b border-r"><input type="checkbox" /></td>
+											<td class="border-b border-r">水洗尺寸变化率</td>
+											<td class="border-b">500</td>
+										</tr>
+										<tr>
+											<td class="border-b border-r"><input type="checkbox" /></td>
+											<td class="border-b border-r">水洗尺寸变化率</td>
+											<td class="border-b">500</td>
+										</tr>
+										<tr>
+											<td class="border-b border-r"><input type="checkbox" /></td>
+											<td class="border-b border-r">水洗尺寸变化率</td>
+											<td class="border-b">500</td>
+										</tr>
+										<tr>
+											<td class="border-b border-r"><input type="checkbox" /></td>
+											<td class="border-b border-r">水洗尺寸变化率</td>
+											<td class="border-b">500</td>
+										</tr>
+										<tr>
+											<td class="border-b border-r"><input type="checkbox" /></td>
+											<td class="border-b border-r">水洗尺寸变化率</td>
+											<td class="border-b">500</td>
+										</tr>
+										<tr>
+											<td class="border-b border-r"><input type="checkbox" /></td>
+											<td class="border-b border-r">水洗尺寸变化率</td>
+											<td class="border-b">500</td>
+										</tr>
+										<tr>
+											<td class="border-b border-r"><input type="checkbox" /></td>
+											<td class="border-b border-r">水洗尺寸变化率</td>
+											<td class="border-b">500</td>
+										</tr>
+									</table>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="user_type pad90">
+						<ul class="base-info clearfix">
+							<li class="clearfix table">
+								<div>套餐：</div>
+								<div class="right tao-can">
+									<select name="">
+										<option value="">针织</option>
+										<option value="">梭织</option>
+										<option value="">毛线</option>
+										<option value="">无纺布</option>
+									</select>
+									<select name="">
+										<option value="">针织</option>
+										<option value="">梭织</option>
+										<option value="">毛线</option>
+										<option value="">无纺布</option>
+									</select>
+								</div>
+							</li>
+							<li class="clearfix table">
+								<div>套餐外可新增检测项目：</div>
+								<div class="right">
+									<table border="0" cellspacing="0" class="border-b border-l border-r border-t">
+										<tr>
+											<th class="border-b border-r">勾选</th>
+											<th class="border-b border-r">项目</th>
+											<th class="border-b">单价/（元）</th>
+										</tr>
+										<tr>
+											<td class="border-b border-r"><input type="checkbox" /></td>
+											<td class="border-b border-r">重金属</td>
+											<td class="border-b">500</td>
+										</tr>
+										<tr>
+											<td class="border-b border-r"><input type="checkbox" /></td>
+											<td class="border-b border-r">水洗尺寸变化率</td>
+											<td class="border-b">500</td>
+										</tr>
+										<tr>
+											<td class="border-b border-r"><input type="checkbox" /></td>
+											<td class="border-b border-r">水洗尺寸变化率</td>
+											<td class="border-b">500</td>
+										</tr>
+										<tr>
+											<td class="border-b border-r"><input type="checkbox" /></td>
+											<td class="border-b border-r">水洗尺寸变化率</td>
+											<td class="border-b">500</td>
+										</tr>
+										<tr>
+											<td class="border-b border-r"><input type="checkbox" /></td>
+											<td class="border-b border-r">水洗尺寸变化率</td>
+											<td class="border-b">500</td>
+										</tr>
+										<tr>
+											<td class="border-b border-r"><input type="checkbox" /></td>
+											<td class="border-b border-r">水洗尺寸变化率</td>
+											<td class="border-b">500</td>
+										</tr>
+										<tr>
+											<td class="border-b border-r"><input type="checkbox" /></td>
+											<td class="border-b border-r">水洗尺寸变化率</td>
+											<td class="border-b">500</td>
+										</tr>
+										<tr>
+											<td class="border-b border-r"><input type="checkbox" /></td>
+											<td class="border-b border-r">水洗尺寸变化率</td>
+											<td class="border-b">500</td>
+										</tr>
+										<tr>
+											<td class="border-b border-r"><input type="checkbox" /></td>
+											<td class="border-b border-r">水洗尺寸变化率</td>
+											<td class="border-b">500</td>
+										</tr>
+									</table>
+								</div>
+							</li>
+							<li class="clearfix table">
+								<div>新增检测项目：</div>
+								<div class="right">
+									<input type="text" placeholder="项目名称" />
+									<textarea name="" rows="" cols="">123</textarea>
+								</div>
+							</li>
+							<li class="clearfix table">
+								<div>检测标准：</div>
+								<div class="right is-fast">
+									<form>
+										<input type="radio" class="float-l" name="standard" id="country-standard" value="male" />
+										<label for="country-standard" class="float-l">国标检测</label>
+									</form>
+									<form>
+										<input type="radio" class="float-l" name="standard" id="company-standard" value="male" />
+										<label for="company-standard" class="float-l">国标检测</label>
+									</form>
+								</div>
+							</li>
+						</ul>
+					</div>
 				</div>
 			</div>
 			<div class="footer">&copy;版权所有</div>
 		</div>
+		<script src="lib/assets/js/jquery1.12.3.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/baseInfo.js" type="text/javascript" charset="utf-8"></script>
 	</body>
 
 </html>
