@@ -3,7 +3,7 @@
 
 	<head>
 		<meta charset="UTF-8">
-		<!--<link rel="stylesheet" href="lib/font/iconfont.css" />-->
+		<link rel="stylesheet" href="lib/font/iconfont.css" />
 		<title>送检_基本信息</title>
 		<link rel="stylesheet" type="text/css" href="css/public.css" />
 		<link rel="stylesheet" type="text/css" href="css/baseInfo_type1.css" />
@@ -95,7 +95,7 @@
 										</tr>
 										<tr>
 											<td class="border-b border-r"><input type="checkbox" /></td>
-											<td class="border-b border-r">重金属</td>
+											<td class="border-b border-r">重金属123</td>
 											<td class="border-b">500</td>
 										</tr>
 										<tr>
@@ -141,7 +141,20 @@
 									</table>
 								</div>
 							</li>
+							<li class="clearfix table" style="padding: 0; margin: 0;">
+								<div class="right jia-ge border-b border-l border-r border-t">
+									<div><strong>套餐价格：</strong>8888.88</div>
+									<div><strong>新增检测项目：</strong>8888.88</div>
+									<div><strong>合计：</strong>8888.88</div>
+								</div>
+							</li>
+							<li class="clearfix table">
+								<div class="btn">
+									<a href="payCard.html" class="my_btn float-r">提交订单</a>
+								</div>
+							</li>
 						</ul>
+
 					</div>
 					<div class="user_type pad90">
 						<ul class="base-info clearfix">
@@ -221,14 +234,20 @@
 							</li>
 							<li class="clearfix table">
 								<div>新增检测项目：</div>
-								<div class="right">
-									<input type="text" placeholder="项目名称" />
-									<textarea name="" rows="" cols="">123</textarea>
+								<div class="right" style="padding: 0;">
+									<p>
+										<input type="text" placeholder="项目名称" />
+										<button class="my_btn">新增</button>
+									</p>
+									<p>
+										<textarea name="" rows="" cols=""></textarea>
+										<button class="my_btn">删除</button>
+									</p>
 								</div>
 							</li>
 							<li class="clearfix table">
 								<div>检测标准：</div>
-								<div class="right is-fast">
+								<div class="right is-fast" style="margin-bottom: -10px;">
 									<form>
 										<input type="radio" class="float-l" name="standard" id="country-standard" value="male" />
 										<label for="country-standard" class="float-l">国标检测</label>
@@ -236,7 +255,31 @@
 									<form>
 										<input type="radio" class="float-l" name="standard" id="company-standard" value="male" />
 										<label for="company-standard" class="float-l">国标检测</label>
+										<input type="text" class="company-biao-zhun" placeholder="输入企业标准号" />
 									</form>
+								</div>
+							</li>
+							<li class="clearfix table">
+								<div class="right is-fast upload border-b border-l border-r border-t">
+									<button class="my_btn">上传企业标准</button>
+									<h6>只能上传jpg/png图片并且不能 超过500kb大小。</h6>
+									<ul>
+										<li class="clearfix">
+											<i class="iconfont icon-document"></i>
+											<a href="javascript:;">林志玲的高清大图嘎嘎林志玲的高清大图嘎嘎林志玲的高清大图嘎嘎无码.jpg</a>
+											<i class="iconfont icon-duihao float-r"></i>
+										</li>
+										<li class="clearfix">
+											<i class="iconfont icon-document"></i>
+											<a href="javascript:;">林志玲的高清大图嘎嘎林志玲的高清大图嘎嘎林志玲的高清大图嘎嘎无码.jpg</a>
+											<i class="iconfont icon-duihao float-r"></i>
+										</li>
+										<li class="clearfix">
+											<i class="iconfont icon-document"></i>
+											<a href="javascript:;">林志玲的高清大图嘎嘎林志玲的高清大图嘎嘎林志玲的高清大图嘎嘎无码.jpg</a>
+											<i class="iconfont icon-duihao float-r"></i>
+										</li>
+									</ul>
 								</div>
 							</li>
 						</ul>

@@ -1,4 +1,17 @@
-.container.base-info .base-info li div.right.is-fast input {
+.container.base-info .inner-container {
+	margin-bottom: 20px;
+}
+
+.container.base-info .base-info li {
+	position: relative;
+}
+
+.container.base-info .base-info li .btn{
+	position: absolute;
+	top: -15px;
+}
+
+.container.base-info .base-info li div.right.is-fast input[type=radio] {
 	width: 15px;
 }
 
@@ -7,8 +20,42 @@
 	padding: 0 10px;
 }
 
+.container.base-info .base-info li div.right.upload .my_btn {
+	margin-top: 10px;
+	margin-left: 30px;
+	margin-bottom: 0;
+}
+
+.container.base-info .base-info li div.right.upload h6 {
+	font-weight: 100;
+	text-indent: 2.4em;
+	font-size: 12px;
+	line-height: 2.5;
+	color: #b7b7b7;
+}
+
+.container.base-info .base-info li div.right.upload ul li {
+	min-height: 30px;
+	line-height: 30px;
+	padding: 0 26px;
+	box-sizing: border-box;
+}
+
+.container.base-info .base-info li div.right.upload ul li a {
+	font-size: 12px;
+}
+
+.container.base-info .base-info li div.right.upload ul li i.float-r {
+	color: #28e428;
+	margin-right: 150px;
+}
+
 .container.base-info .inner-container .base-info li div.right.tao-can select {
 	width: 35%;
+}
+
+.container .inner-container .user_type .base-info li div.right input.company-biao-zhun {
+	width: 40%;
 }
 
 .container.base-info .inner-container .base-info li.table div {
@@ -19,19 +66,63 @@
 	margin-bottom: 30px;
 }
 
+
+.container.base-info .inner-container .base-info li.table div.right.jia-ge {
+	background-color: #fbfbfb;
+	padding: 15px 10px 15px 0;
+	text-align: right;
+	width: 100%;
+	box-sizing: border-box;
+	font-size: 12px;
+	font-weight: 100;
+}
+
+.container.base-info .inner-container .base-info li.table div.right div {
+	width: 100%;
+	text-align: right;
+	line-height: 1.6;
+	font-size: 16px;
+	color: red;
+}
+
+.container.base-info .inner-container .base-info li.table div.right div strong{
+	color: #666;
+	font-size: 12px;
+	font-weight: 100;
+}
 .container.base-info .inner-container .base-info li.table div,
+.container.base-info .inner-container .base-info li.table div.right p,
 .container.base-info .inner-container .base-info li.table div.right {
 	width: 100%;
 	text-align: left;
 }
-.container.base-info .inner-container .base-info li.table div.right form{
-	height: 40px;
+
+.container.base-info .inner-container .base-info li.table div.right p {
+	position: relative;
+	margin-top: 20px;
 }
-.container.base-info .inner-container .base-info li.table div.right textarea{
-	width: 100%;
+
+.container.base-info .inner-container .base-info li.table div.right p input,
+.container.base-info .inner-container .base-info li.table div.right p textarea {
+	width: 40%;
+}
+
+.container.base-info .inner-container .base-info li.table div.right p button {
+	margin: 0;
+	height: 30px;
+	margin-left: 20px;
+	position: absolute;
+	top: 0;
+}
+
+.container.base-info .inner-container .base-info li.table div.right form {
+	height: 40px;
+	line-height: 30px;
+}
+
+.container.base-info .inner-container .base-info li.table div.right textarea {
 	min-height: 100px;
 	padding: 10px 15px;
-	margin-top: 20px;
 	box-sizing: border-box;
 }
 
@@ -48,10 +139,14 @@
 	text-align: center;
 }
 
+.container.base-info .inner-container .base-info li.table div table tr td input {
+	display: inline-block;
+	float: none;
+}
+
 .container.base-info .inner-container .base-info li.table div table tr:hover {
 	transition: all 0.6s ease;
 	background-color: #fdfcfc;
-	/*background-color: red;*/
 }
 
 .container.base-info .inner-container .base-info li.table div table tr:first-child {
@@ -65,35 +160,29 @@
 .container.base-info .inner-container .base-info li.table div table tr+th,
 .container.base-info .inner-container .base-info li.table div table tr+td {
 	max-width: 30px;
-	/*padding: 0 30px;*/
-	/*box-sizing: border-box;*/
-	/*text-align: center;*/
-	/*position: relative;*/
 }
 
 .container.base-info .inner-container .base-info li.table div table tr input {
-	/*display: inline-block;*/
 	width: 15px;
-	/*margin-left:15px;*/
 }
 
-.container.base-info .inner-container h1 span{
+.container.base-info .inner-container h1 span {
 	color: red;
 }
 
-.container.base-info .inner-container .tab{
+.container.base-info .inner-container .tab {
 	width: 100%;
 	min-height: 600px;
 	position: relative;
 }
 
-.container.base-info .inner-container .tab .user_type{
+.container.base-info .inner-container .tab .user_type {
 	position: absolute;
 	left: 0;
 	top: 0;
 	display: none;
 }
-.container.base-info .inner-container .tab .user_type.active{
+
+.container.base-info .inner-container .tab .user_type.active {
 	display: block;
 }
-

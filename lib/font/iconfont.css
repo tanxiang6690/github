@@ -1,10 +1,10 @@
 
 @font-face {font-family: "iconfont";
-  src: url('iconfont.eot?t=1501059983680'); /* IE9*/
-  src: url('iconfont.eot?t=1501059983680#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url('iconfont.woff?t=1501059983680') format('woff'), /* chrome, firefox */
-  url('iconfont.ttf?t=1501059983680') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-  url('iconfont.svg?t=1501059983680#iconfont') format('svg'); /* iOS 4.1- */
+  src: url('iconfont.eot?t=1501207877904'); /* IE9*/
+  src: url('iconfont.eot?t=1501207877904#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('iconfont.woff?t=1501207877904') format('woff'), /* chrome, firefox */
+  url('iconfont.ttf?t=1501207877904') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('iconfont.svg?t=1501207877904#iconfont') format('svg'); /* iOS 4.1- */
 }
 
 .iconfont {
@@ -56,6 +56,8 @@
 .icon-close:before { content: "\e6e9"; }
 
 .icon-jiedanbaozhengjin:before { content: "\e675"; }
+
+.icon-document:before { content: "\e61f"; }
 
 .icon-cloud-test:before { content: "\e667"; }
 
